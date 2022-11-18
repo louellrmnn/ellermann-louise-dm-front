@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - MARNI</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <span class="text-uppercase fw-lighter ms-2">MARNI</span>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn btn primary" data-toggle="modal" data-target="#cart">(<span
+                        class="total-count"></span>)
+                    <i class="fa fa-shopping-cart"></i>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#collection">Nos produits</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#blogs">Blog</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#about">À propos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fin navbar -->
+
+    <!-- header -->
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <div class="text-center carousel-item active">
+                <h2 class="text-capitalize text-white">By Christina Laurier</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">Nouvelle collection</h1>
+                <a href="#collection" class="btn mt-3 text-uppercase">Acheter maintenant</a>
+            </div>
+        </div>
+    </header>
+    <!-- fin header -->
+
+    <!-- nos produits -->
+    <section id="collection" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">Nos produits</h2>
+            </div>
+
+            <div class="row g-0">
+                <div class="collection-list mt-4 row gx-0 gy-3">
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ">
+                        <div class="collection-img position-relative">
+                            <a href="html/product-1.html"><img src="images/product1.png" class="w-100"></a>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Puffy</p>
+                            <span class="fw-bold">2 949 €</span> <br />
+                            <button type="button" class="add-to-cart btn m-2 text-dark active-filter-btn" data-id="425"
+                                data-name="Piécettes" data-price="15,00" data-weight="54"
+                                data-url="/html/product-1.html">Ajouter au panier</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ">
+                        <div class="collection-img position-relative">
+                            <a href="html/product-2.html"> <img src="images/product2.png" class="w-100"> </a>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Bon pouf</p>
+                            <span class="fw-bold">549 €</span><br />
+                            <button type="button" class="btn m-2 text-dark active-filter-btn">Ajouter au panier</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ">
+                        <div class="collection-img position-relative">
+                            <a href="html/product-3.html"><img src="images/product3.png" class="w-100"></a>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Hide</p>
+                            <span class="fw-bold">499 €</span><br />
+                            <button type="button" class="btn m-2 text-dark active-filter-btn">Ajouter au panier</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ">
+                        <div class="collection-img position-relative">
+                            <a href="html/product-4.html"><img src="images/product4.png" class="w-100"></a>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Storm</p>
+                            <span class="fw-bold">99 €</span><br />
+                            <button type="button" class="btn m-2 text-dark active-filter-btn">Ajouter au panier</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ">
+                        <div class="collection-img position-relative">
+                            <a href="html/product-5.html"><img src="images/product5.png" class="w-100"></a>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Table wool</p>
+                            <span class="fw-bold">198 €</span><br />
+                            <button type="button" class="btn m-2 text-dark active-filter-btn">Ajouter au panier</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ">
+                        <div class="collection-img position-relative">
+                            <a href="html/product-6.html"><img src="images/product6.png" class="w-100"></a>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Alphabeta light</p>
+                            <span class="fw-bold">769 €</span><br />
+                            <button type="button" class="btn m-2 text-dark active-filter-btn">Ajouter au panier</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ">
+                        <div class="collection-img position-relative">
+                            <a href="html/product-8.html"><img src="images/product8.png" class="w-100"></a>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Last</p>
+                            <span class="fw-bold">269 €</span><br />
+                            <button type="button" class="btn m-2 text-dark active-filter-btn">Ajouter au panier</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ">
+                        <div class="collection-img position-relative">
+                            <a href="html/product-7.html"><img src="images/product7.png" class="w-100"></a>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Donut sofa</p>
+                            <span class="fw-bold">495 €</span><br />
+                            <button type="button" class="btn m-2 text-dark active-filter-btn">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin collection -->
+
+    <!-- banniere -->
+    <section id="offers" class="py-5">
+        <div class="container">
+            <div
+                class="row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start">
+                <div class="offers-content">
+                    <span class="text-white">BLACK FRIDAY</span>
+                    <h2 class="mt-2 mb-4 text-white">Accédez aux ventes en avant-première !</h2>
+                    <a href="#newsletter" class="btn">S'inscrire à la newsletter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin banniere -->
+
+    <!-- blog -->
+    <section id="blogs" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Blog</h2>
+            </div>
+
+            <div class="row g-3">
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="images/blog_1.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Honest materials – Objets par Nadia Yaron</h4>
+                        <p class="card-text mt-3 text-muted">L'un des aspects les plus passionnants du soutien apporté
+                            aux fabricants de la boutique est de voir leur développement et la direction qu'ils prennent
+                            dans leur conception.</p>
+                        <a href="#" class="btn">Lire l'article</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="images/blog_2.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Nouveauté – Stand series par Mory Kougei</h4>
+                        <p class="card-text mt-3 text-muted">Beaucoup de gens négligent la qualité esthétique que
+                            l'artisanat apporte à une œuvre. Souvent, ces petites marques là où le ciseau frappe le
+                            bois...</p>
+                        <a href="#" class="btn">Lire l'article</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="images/blog_3.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">MARNI X Alfred Sahlén: Spill & Roll</h4>
+                        <p class="card-text mt-3 text-muted">Une nouvelle sortie dans la boutique aujourd'hui est le
+                            fruit d'une collaboration entre le designer japonais Takuhiro Shinomoto et Nippon Kodo,
+                            l'une des plus anciennes entreprises de fabrication d'articles de sport.</p>
+                        <a href="#" class="btn">Lire l'article</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin blog -->
+
+
+
+    <!-- a propos -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row gy-lg-5 align-items-center">
+                <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                    <div class="title pt-3 pb-5">
+                        <h2 class="position-relative d-inline-block ms-4">À propos</h2>
+                    </div>
+                    <p>Un bon design peut enrichir des vies. C'est ce que nous croyons chez MARNI.</p>
+                    <p>En tant que marque de design indépendante et plateforme pour une pensée progressive, nous visons
+                        à inspirer la communauté créative par la collaboration, l'innovation et l'expérimentation. Nous
+                        collaborons avec des designers d'avant-garde et des fabricants européens renommés pour offrir
+                        des designs progressistes de la plus haute qualité, facilement disponibles et expédiés de
+                        manière économique dans le monde entier.</p>
+                </div>
+                <div class="col-lg-6 order-lg-0">
+                    <img src="images/about_us.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin a propos -->
+
+    <!-- newsletter -->
+    <section id="newsletter" class="py-5">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="title text-center pt-3 pb-5">
+                    <h2 class="position-relative d-inline-block ms-4">S'inscrire à la newsletter</h2>
+                </div>
+
+                <p class="text-center text-muted">Soyez le premier à être informé des nouveaux produits, collaborations
+                    et offres, et obtenez 15% de réduction sur votre prochaine commande.</p>
+                <div class="input-group mb-3 mt-3">
+                    <input type="text" class="form-control" placeholder="Entre ton email ...">
+                    <button class="btn btn-primary" type="submit">S'inscrire</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin newsletter -->
+
+    <!-- footer -->
+    <footer id="colorf" class="py-5">
+        <div class="container">
+            <div class="row text-white g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a class="text-uppercase text-decoration-none brand text-white" href="index.html">MARNI</a>
+                    <p class="text-white text-muted mt-3">Marque de design indépendante. Un bon design peut enrichir les
+                        vies !</p>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light">Menu</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#" class=" text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Accueil
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#collection" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Nos produits
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#blogs" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Blog
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#about-us" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> À propos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Nous contacter</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            Rue de l'Université
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            marni.support@gmail.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            04 68 52 79 86
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Nous suivre</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fin footer -->
+
+    <!-- modal -->
+
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Panier</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="show-cart table"> </table>
+                    <div>Total : <span class="total-cart"></span></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin modal-->
+
+
+    <!-- script js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
